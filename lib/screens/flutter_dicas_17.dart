@@ -11,7 +11,7 @@ class FlutterDicas17 extends StatefulWidget {
 class _FlutterDicas17State extends State<FlutterDicas17> {
 
   final pessoa = PessoaMobx();
-  final apelidoTEC = TextEditingController(); //para que conseguir ter acesso ao input. Pegar o valor que será escrito no campo
+  final apelidoTEC = TextEditingController(); //para conseguir ter acesso ao input. Pegar o valor que será escrito no campo
   final formKey = GlobalKey<FormState>(); // é responsável por validar o formulário.
 
   void _submitForm(){
