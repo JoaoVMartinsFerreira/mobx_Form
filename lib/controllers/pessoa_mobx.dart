@@ -12,7 +12,7 @@ abstract class PessoaMobxBase with Store {
   @observable // anotação para que sejam observadas as alterações na variável.
   String apelido = 'Jão';
    
-   @action // 
+   @action //ação que altera os @observable
    void trocarApelido(String novoApelido){
     apelido = novoApelido;
    }
