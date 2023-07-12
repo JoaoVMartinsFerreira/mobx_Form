@@ -3,7 +3,7 @@ import 'package:mobx/mobx.dart';
 
 part 'pessoa_mobx.g.dart';
 
-class PessoaMobx = PessoaMobxBase with _$PessoaMobx; //  PessoaMobxBase é uima classe abstrata que 
+class PessoaMobx = PessoaMobxBase with _$PessoaMobx; //  PessoaMobxBase é uma classe abstrata que 
 //tem um estrutura do 
 //Mobx para que seja possível ter variáveis observáveis e ter
 // uma açao para que seja possível ser obervado do widgetObserver e rebuildar quando for necessário
