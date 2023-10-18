@@ -15,7 +15,7 @@ class _FlutterDicas17State extends State<FlutterDicas17> {
   final formKey = GlobalKey<FormState>(); // é responsável por validar o formulário.
 
   void _submitForm(){
-    if(formKey.currentState!.validate()){ // Se entra n condição se o campo for preenchido
+    if(formKey.currentState!.validate()){ // Só entra na condição se o campo for preenchido
     pessoa.trocarApelido(apelidoTEC.text); // .text para acessar o conteúdo da variável apelidoEC
     }
   }
